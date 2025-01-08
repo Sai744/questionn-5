@@ -11,6 +11,7 @@ Here iam using AWS provider. Provider configuration is mandatory inorder to run 
 When we give terraform init terraform searches for the provider configuaration in provider.tf files and downloads the required provider configuration.
 
 __AWS_key_pair__ --> creates SSH keypair in AWS which you can use to access the ec2 instances.
+
 __Module eks__ --> here iam using terraform eks inbuilt module
 Cluster name, version --> sets the eks cluster name and the version of the cluster
 
