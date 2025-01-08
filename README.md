@@ -20,16 +20,29 @@ eks_managed_node_groups: Defines specific managed node groups, in this case, a g
 
 For EKS, you can configure your kubectl to use the EKS cluster by running the following command:
 
+![80](https://github.com/user-attachments/assets/5bac3c45-1e5f-445a-b8c3-bd507e6fd8f4)
+
 To get the nodes running in the cluster
 
+![81](https://github.com/user-attachments/assets/cfbfb3ff-7006-425b-a983-c5521381350c)
 
 To  verify all the core components (e.g., kube-apiserver, kube-controller-manager, etc.) are up and running
 
+![82](https://github.com/user-attachments/assets/696ea7a3-2573-44e8-b8f4-476f874f8e72)
+
 To see the status of all pods across the entire cluster:
+
+![83](https://github.com/user-attachments/assets/19fac513-5d9b-471c-b264-64f28e0f5ce5)
 
 To check all the services running
 
-To check the heck the overall health of your cluster by using the kubectl command to look for the status of the nodes, controllers.
+![84](https://github.com/user-attachments/assets/0d6719fd-ef85-4fde-af6f-3b3142915a32)
+
+To check the overall health of your cluster by using the kubectl command to look for the status of the nodes, controllers.
+
+![85](https://github.com/user-attachments/assets/b042f0ca-51a5-48d6-a0c9-12b1b92688b1)
 
 To check the logs of the pods 
+
+![86](https://github.com/user-attachments/assets/73c95be3-450f-42b0-b569-eafef95e2acb)
 
